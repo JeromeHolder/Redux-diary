@@ -1,0 +1,2 @@
+export const ADD_ENTRY = "ADD_ENTRY"
+export const SET_DISPLAY_ENTRY = "SET_DISPLAY_ENTRY"
