@@ -1,6 +1,7 @@
 import {ADD_ENTRY, SET_DISPLAY_ENTRY} from './actionTypes'
 import uuidv4 from 'uuid'
 
+// Defines actions
 export function addEntry(title, content){
     const timestamp = Date.now();
     const id = uuidv4();

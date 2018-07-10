@@ -1,12 +1,43 @@
+/* body {
+    font-size: 20px;
+    color: #212529;
+    font-family: 'Lora', 'Times New Roman', serif;
+}
+
+  h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 800;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+} */
+
 .mynav {
     margin-left: 10%;
     margin-right: 10%;
 }
 
+.landingHeader {
+    background: url("./landing-bg.jpg") no-repeat center center;
+}
+
+.newEntryHeader {
+    background: url("./newentry-bg.jpg") no-repeat center center;
+}
+
+.listHeader {
+    background: url("./list-bg.jpg") no-repeat center center;
+}
+
+.entryHeader {
+    background: url("./entry-bg.jpg") no-repeat center center;
+}
+
 header.masthead {
     position: relative;
     background-color: #343a40;
-    background: url("./bg-masthead.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -22,7 +53,7 @@ header.masthead .overlay {
     width: 100%;
     top: 0;
     left: 0;
-    opacity: 0.3;
+    opacity: 0.5;
 }
   
 header.masthead h1 {
@@ -56,11 +87,73 @@ header.masthead h1 {
     font-size: 4.5rem;
 }
   
-.features-icons .features-icons-item:hover .features-icons-icon i {
-    font-size: 5rem;
+.icon:hover {
+    transform: scale(1.2);
 }
 
 footer.footer {
     padding-top: 4rem;
     padding-bottom: 4rem;
+}
+
+.post-preview > a {
+    color: #212529;
+}
+  
+.post-preview > a:focus, .post-preview > a:hover {
+    text-decoration: none;
+    color: #0085A1;
+}
+  
+.post-preview > a > .post-title {
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+  
+.post-preview > a > .post-subtitle {
+    font-weight: 300;
+    margin: 0 0 10px;
+}
+  
+.post-preview > .post-meta {
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 0;
+    color: #868e96;
+}
+  
+.post-preview > .post-meta > a {
+    text-decoration: none;
+    color: #212529;
+}
+  
+.post-preview > .post-meta > a:focus, .post-preview > .post-meta > a:hover {
+    text-decoration: underline;
+    color: #0085A1;
+}
+  
+@media only screen and (min-width: 768px) {
+    .post-preview > a > .post-title {
+      font-size: 36px;
+    }
+}
+
+.mybtn {
+    border-radius: 0 !important;
+}
+
+.content {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.formStyle {
+    border: none !important;
+    border-bottom: 1px solid #dee2e6 !important;
+    border-radius: 0 !important;
+}
+
+.textarea {
+    min-height: 7rem !important;
 }

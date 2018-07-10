@@ -8,8 +8,9 @@ import Contact from './components/Contact'
 import {ListContainer, EntryContainer} from './containers/View'
 import NewEntry from './containers/NewEntry'
 import Landing from './containers/Landing'
-// import SingleEntry from './components/Entry'
 
+
+// Routing
 export default class App extends Component {
     render() {
         return (

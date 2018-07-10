@@ -1,22 +1,15 @@
 import {ADD_ENTRY, SET_DISPLAY_ENTRY} from './actionTypes'
 import {combineReducers} from 'redux'
 
-// const initialState = {
-//     entries: [
-//         {
-//             title: "Title",
-//             content: "Content",
-//             timestamp: "Today",
-//             id: 1
-//         }
-//     ],
-//     display: 1
-// }
-
+// Tests for initial state and overwrites if present, otherwise adds to state object
 function entries(state=[], action){
     switch (action.type){
         case ADD_ENTRY:{
             const {title, content, timestamp, id} = action
+            if(state[0].title === 'Your first entry!'){
+                return [{title, content, timestamp, id}]
+            }
+            
             return state.concat({title, content, timestamp, id})
         }
         default:
@@ -24,7 +17,8 @@ function entries(state=[], action){
     }
 }
 
-function display(state=2, action){
+// Returns the id of the entry to display on the entry page
+function display(state=1, action){
     switch (action.type){
         case SET_DISPLAY_ENTRY:
             return action.id
@@ -33,6 +27,7 @@ function display(state=2, action){
     }
 }
 
+// Combines reducers
 const rootReducer = combineReducers({
     entries,
     display
