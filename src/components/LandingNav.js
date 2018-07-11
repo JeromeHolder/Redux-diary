@@ -1,10 +1,6 @@
 import React, {Component} from 'react'
 import {Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, Button} from 'reactstrap';
 
-// const bStyle = {
-//     borderRadius: 0
-// }
-
 export default class LandingNav extends Component {
     // State and toggle for Navbar
     constructor(props) {

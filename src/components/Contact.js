@@ -16,19 +16,19 @@ export default class Contact extends React.Component{
                             <p>Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as possible!</p>
                             <Form>
                                 <FormGroup>
-                                    {/* <Label for='name'>Name</Label> */}
+                                    <Label for='name' hidden>Name</Label>
                                     <Input className="formStyle" type="name" name="name" placeholder="Name" id="name" />
                                 </FormGroup>
                                 <FormGroup>
-                                    {/* <Label for='email'>Name</Label> */}
+                                    <Label for='email' hidden>Name</Label>
                                     <Input className="formStyle" type="email" name="email" placeholder="Email" id="email" />
                                 </FormGroup>
                                 <FormGroup>
-                                    {/* <Label for='phonenumber'>Name</Label> */}
+                                    <Label for='phonenumber' hidden>Name</Label>
                                     <Input className="formStyle" type="phonenumber" name="phonenumber" placeholder="Phone Number" id="phonenumber" />
                                 </FormGroup>
                                 <FormGroup>
-                                    {/* <Label for='message'>Name</Label> */}
+                                    <Label for='message' hidden>Name</Label>
                                     <Input className="formStyle textarea" type="textarea" name="message" placeholder="Message" id="message" />
                                 </FormGroup>
                                 <Button className='mybtn' color='primary'>Send</Button>
