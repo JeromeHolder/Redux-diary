@@ -8,6 +8,7 @@ Possible features: share to twitter and facebook, add picture to entry
 TECHNOLOGIES
 React, Redux, React-redux - front end framework and state management
 Reactstrap, fontawesome - styling
+Moment-timezone - date formatting
 
 Will include:
 Node, Express - REST API

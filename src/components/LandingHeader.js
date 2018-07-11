@@ -15,7 +15,7 @@ export default class LandingHeader extends React.Component{
                             <form>
                                 <div className="form-row">
                                     <div className="col-12 col-md-9 mb-2 mb-md-0">
-                                        <input type="email" className="form-control form-control-lg mybtn" placeholder="Enter your email..."/>
+                                        <input type="email" className="form-control form-control-lg  mybtn" placeholder="Enter your email..."/>
                                     </div>
                                     <div className="col-12 col-md-3">
                                         <Button type="submit" className="btn btn-block btn-lg btn-primary mybtn" color='primary'>Sign Up!</Button>

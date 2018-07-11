@@ -10,6 +10,9 @@ export default class EntryHeader extends React.Component{
                         <div className="col-xl-9 mx-auto">
                             <h1 className="mb-5">{this.props.title}</h1>
                         </div>
+                        <div className="col-xl-9 mx-auto">
+                            <h3 className="mb-5">{this.props.timestamp}</h3>
+                        </div>
                     </div>
                 </div>
             </header>

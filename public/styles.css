@@ -1,22 +1,24 @@
-/* body {
-    font-size: 20px;
-    color: #212529;
-    font-family: 'Lora', 'Times New Roman', serif;
-}
-
-  h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 {
   font-weight: 800;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-} */
+}
 
 .mynav {
     margin-left: 10%;
     margin-right: 10%;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 800;
+}
+
+.navlink {
+    display: flex;
+    align-items: center;
+    margin-right: 5%;
+    color: #212529;
+}
+
+.navlink:hover, .footerlink:hover {
+    text-decoration: none;
 }
 
 .landingHeader {
@@ -86,7 +88,7 @@ header.masthead h1 {
 .features-icons .features-icons-item .features-icons-icon i {
     font-size: 4.5rem;
 }
-  
+
 .icon:hover {
     transform: scale(1.2);
 }
@@ -102,39 +104,17 @@ footer.footer {
   
 .post-preview > a:focus, .post-preview > a:hover {
     text-decoration: none;
-    color: #0085A1;
 }
   
-.post-preview > a > .post-title {
-    font-size: 50px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-}
-  
-.post-preview > a > .post-subtitle {
-    font-weight: 300;
-    margin: 0 0 10px;
-}
-  
-.post-preview > .post-meta {
+.post-meta {
     font-size: 18px;
     font-style: italic;
     margin-top: 0;
     color: #868e96;
 }
   
-.post-preview > .post-meta > a {
-    text-decoration: none;
-    color: #212529;
-}
-  
-.post-preview > .post-meta > a:focus, .post-preview > .post-meta > a:hover {
-    text-decoration: underline;
-    color: #0085A1;
-}
-  
 @media only screen and (min-width: 768px) {
-    .post-preview > a > .post-title {
+    .post-preview > .post-title {
       font-size: 36px;
     }
 }

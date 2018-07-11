@@ -24,8 +24,8 @@ export default class InternalNav extends React.Component {
                 <NavbarToggler onClick={this.toggle} />
                 <Collapse isOpen={this.state.isOpen} navbar>
                     <Nav className="ml-auto mynav" navbar>
-                    <Link to='/viewentries'>View</Link>
-                    <Link to='/newentry'>Add</Link>
+                    <Link className='navlink' to='/viewentries'>View</Link>
+                    <Link className='navlink' to='/newentry'>Add</Link>
                     <Button className='mybtn' color='primary' href='/'>Sign Out</Button>
                     </Nav>
                 </Collapse>

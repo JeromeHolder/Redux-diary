@@ -16,19 +16,19 @@ export default class Footer extends React.Component{
                         <div className="col-lg-6 h-100 text-center text-lg-left my-auto">
                             <ul className="list-inline mb-2">
                             <li className="list-inline-item">
-                                <Link to="/">About</Link>
+                                <Link className='footerlink' to="/">About</Link>
                             </li>
                             <li className="list-inline-item">&sdot;</li>
                             <li className="list-inline-item">
-                                <Link to="/contact">Contact</Link>
+                                <Link className='footerlink' to="/contact">Contact</Link>
                             </li>
                             <li className="list-inline-item">&sdot;</li>
                             <li className="list-inline-item">
-                                <Link to="/">Terms of Use</Link>
+                                <Link className='footerlink' to="/">Terms of Use</Link>
                             </li>
                             <li className="list-inline-item">&sdot;</li>
                             <li className="list-inline-item">
-                                <Link to="/">Privacy Policy</Link>
+                                <Link className='footerlink' to="/">Privacy Policy</Link>
                             </li>
                             </ul>
                             <p className="text-muted small mb-4 mb-lg-0">&copy; Jerome Holder 2018. All Rights Reserved.</p>
