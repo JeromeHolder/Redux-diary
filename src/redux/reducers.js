@@ -6,7 +6,7 @@ function entries(state=[], action){
     switch (action.type){
         case ADD_ENTRY:{
             const {title, content, timestamp, id} = action
-            if(state[0].title === 'Your first entry!'){
+            if(state[0].title === 'Lorem ipsum is your friend!'){
                 return [{title, content, timestamp, id}]
             }
             
