@@ -20,7 +20,7 @@ export default class InternalNav extends React.Component {
     render() {
         return (
             <Navbar color="light" light expand="md">
-                <NavbarBrand className='mynav navbar-brand' href="/">Welcome</NavbarBrand>
+                <NavbarBrand className='mynav navbar-brand' href="/">Selfie</NavbarBrand>
                 <NavbarToggler onClick={this.toggle} />
                 <Collapse isOpen={this.state.isOpen} navbar>
                     <Nav className="ml-auto mynav" navbar>
